@@ -1,0 +1,141 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+/* CSS for larger screens */
+@media (min-width: 768px) {
+  /* Styles for desktop or larger screens */
+}
+
+/* CSS for smaller screens */
+@media (max-width: 767px) {
+  /* Styles for mobile or tablet screens */
+}
+.Static-Page{
+  display:inline-flex;
+  padding: 50px;
+  margin-top:50px;
+}
+.LOGO1{
+  animation: moveUpDown 1s ease-in-out infinite alternate;
+}
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px); /* Adjust the distance of movement */
+    }
+}
+#fixed-content {
+    position: fixed;
+    top: 3%; /* Adjust as needed to position the element vertically */
+    transform: translateY(-50%);
+    background-color: white; /* Set a background color if needed */
+    padding: 20px; /* Add padding to your fixed element */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add shadow for visibility */
+    z-index: 999; /* Ensure it appears above other content */
+}
+.first-part{
+  color:green;
+  font-size:29px;
+  font-weight:bold;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+.second-part{
+color:blue;
+font-size:30px;
+font-weight:bold;
+margin-left: -140px;
+margin-top: 85px;
+}
+.search-container {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background-color: #f0f0f0;
+  border-radius: 25px;
+  padding: 5px;
+  width: 300px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 590px;
+}
+.search-input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 25px; /* Rounded corners */
+}
+
+/* Style the search button */
+.search-button {
+  background-color: lightgreen; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 25px; /* Rounded corners */
+  padding: 10px 20px; /* Padding around the button text */
+  cursor: pointer;
+  transition: background-color 0.2s; /* Smooth hover effect */
+}
+
+/* Hover effect for the search button */
+.search-button:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+input[type="text"]{
+  padding: 5px;
+  width: 200px;
+  border-radius: 80px;
+}
+.image-container{
+  background-color: lightgreen; 
+  display: flex;
+  border-radius: 10px;
+  margin-top: 150px;
+}
+.right-alignedimg{
+  float: left;
+  margin-left: -30px;
+  display: inline-flex;
+}
+figcaption {
+  display: flex;
+  justify-content: space-between; /* Pushes the text and image to opposite sides */
+  align-items: center; /* Centers vertically within the <figcaption> */
+}
+
+.cap {
+  text-align: center; /* Center text horizontally within the .cap div */
+  color: white;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-left: -15px;
+  white-space: nowrap; 
+  overflow: hidden; /* Hide overflowed text */
+  border-right: 3px solid white; /* Simulate the cursor */
+  min-width: 0; /* Allow text to shrink */
+}
+.button-container {
+  text-align: center;
+  display: inline-flex;
+  margin-left: 90px;
+}
+
+.nav-button {
+  background-color: dodgerblue; 
+  color: black;
+  border: none;
+  padding: 16px 25px; 
+  margin: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px; 
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: white; 
+}

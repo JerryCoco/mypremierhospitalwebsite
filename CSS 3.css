@@ -1,0 +1,54 @@
+.Faceless{
+  color: black;
+  font-size:50px;
+  font-weight: bold;
+  margin-left: 50px;
+ }
+ .Under{
+    border-bottom: 1px solid green; 
+ }
+ @media (max-width: 768px) {
+    /* Styles for screens smaller than 768px wide (e.g., mobile devices) */
+}
+@media (min-width: 769px) {
+    /* Styles for screens 769px wide or wider (e.g., laptops and desktops) */
+}
+
+.facilities-image {
+    display: flex; /* Create a flex container */
+    justify-content: space-between; /* Distribute space evenly between images */
+    margin-right: 10px;
+    transition: all 1s;
+}
+.facilities-image img {
+    max-width: 30%; /* Adjust the width of each image as needed */
+    height: auto; /* Maintain the aspect ratio of the images */
+    border-radius: 15px;
+    transition: all;
+}
+.facilities-image img:hover{
+ transform:scale(1.1)
+}
+.facilities-imageii{
+    display: flex; /* Create a flex container */
+    justify-content: space-between; /* Distribute space evenly between images */
+    margin-right: 10px;
+}
+
+.facilities-imageii img {
+    max-width: 30%; /* Adjust the width of each image as needed */
+    height: auto; /* Maintain the aspect ratio of the images */
+    border-radius: 15px;
+}
+.facilities-imageii img:hover{
+    transform:scale(1.1)
+   }
+.clicky{
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+.linkygy{
+    color:dodgerblue;
+    font-size: 12px;
+}

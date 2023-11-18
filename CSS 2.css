@@ -1,0 +1,76 @@
+.main{
+  margin-top: 150px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.m{
+  font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+  background-color:none; 
+  padding: 100px;
+  flex: 1; 
+  order: 1;
+ }
+ @media (max-width: 768px) {
+  /* Styles for screens smaller than 768px wide (e.g., mobile devices) */
+}
+@media (min-width: 769px) {
+  /* Styles for screens 769px wide or wider (e.g., laptops and desktops) */
+}
+
+.IMAGE{
+float: right;
+border-radius: 12px;
+width: 450px; 
+height: 600px;
+order: 2; 
+margin-right:100px;;
+}
+.We11{
+  margin-top: 60px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.We10{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:none; 
+  padding: 100px;
+  margin-left: 100px;
+  flex: 1; 
+  order: 2;
+ }
+
+.IMAGE1{
+float: left;
+border-radius: 12px;
+width: 550px; 
+height: 600px;
+order: 1; 
+margin-left: 100px;
+}
+.We9{
+  margin-top: 60px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.We8{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:none; 
+  padding: 100px;
+  flex: 1; 
+  order: 1;
+ }
+
+.IMAGE2{
+float: right;
+border-radius: 12px;
+width: 450px; 
+height: 600px;
+order: 2; 
+margin-right: 100px;
+}
